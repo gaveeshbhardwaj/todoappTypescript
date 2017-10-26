@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>To Do App</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<div class="header"><center><h1>My Todos</h1></center></div>
+<div class="lists">
+    <center>
+        <input id="title" type="text" class="text-input" onkeypress="submit(event)" placeholder="Todo Title Goes Here">
+        <button class="add-btn" onclick="addtodo()" >ADD</button>
+    </center>
+</div>
+<div class="lists" style="height: 600px">
+    <center>
+        <table id="todolist" class="tables"></table>
+    </center>
+</div>
+
+</body>
+<script type="text/javascript" src="main.js"></script>
+<script type="text/javascript" src="script.js"></script>
+
+</html>
